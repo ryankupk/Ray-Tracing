@@ -1,0 +1,87 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+	<meta charset="UTF-8">
+	<title>Canvas Resize</title>
+	<style type="text/css">
+		canvas{
+		}
+		body {
+			margin :0;
+		}
+	</style>
+</head>
+<body>
+	<canvas></canvas>
+
+	<div class="inputs" style="text-align: center;">
+		<div class="innerInputs" style="margin: auto;">
+			<form id="form">
+				<hr>
+				<label for="arrowHeight">Arrow Height: </label>
+				<select name="arrowHeight">
+					<option value="100">100</option>
+					<option value="110">110</option>
+					<option value="120">120</option>
+					<option value="130">130</option>
+					<option value="140">140</option>
+					<option value="150">150</option>
+					<option value="160">160</option>
+					<option value="170">170</option>
+					<option value="180">180</option>
+					<option value="190">190</option>
+					<option value="200">200</option>
+				</select>
+				<hr>
+				<label for="medium">Medium: </label>
+				<select name="medium">
+					<option value="lens">Lens</option>
+					<option value="mirror">Mirror</option>
+				</select>
+				<hr>
+				<label for="shape">Shape: </label>
+				<select name="shape">
+					<option value="concave">Concave</option>
+					<option value="convex">Convex</option>
+				</select>
+				<hr>
+				<label for="focalLength">Focal Point Length: </label>
+				<select name="focalLength">
+					<option value="70">70</option>
+					<option value="80">80</option>
+					<option value="90">90</option>
+					<option value="100">100</option>
+					<option value="110">110</option>
+					<option value="120">120</option>
+					<option value="130">130</option>
+					<option value="140">140</option>
+					<option value="150">150</option>
+					<option value="160">160</option>
+					<option value="170">170</option>
+				</select>
+				<hr>
+				<label for="objDist">Object Distance: </label>
+				<select name="objDist">
+					<option value="300">300</option>
+					<option value="350">350</option>
+					<option value="400">400</option>
+					<option value="450">450</option>
+					<option value="500">500</option>
+					<option value="550">550</option>
+					<option value="600">600</option>
+					<option value="650">650</option>
+					<option value="700">700</option>
+				</select>
+				<hr>
+				<button type="button" name="parameters" id="btn">Change Parameters!</button>
+			</form>
+		</div>
+	</div>
+</body>
+</html>
+<script src="convexlens.js"></script>
+<script src="convexmirror.js"></script>
+<script src="concavelens.js"></script>
+<script src="concavemirror.js"></script>
+<script src="arrow.js"></script>
+<script src="main.js"></script>
